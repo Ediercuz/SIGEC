@@ -1,0 +1,149 @@
+
+div{
+	text-align: left;
+}
+
+#txtbox{
+	text-align: left;
+}
+
+
+.div5{
+	text-align: center;
+	position: static;
+	margin: auto;
+	margin-top: 70px;	
+	border: 1px solid #D1D8CA;
+	height: 500px;
+	width: 1000px;
+	border-radius: 2em;
+	padding: 50px;
+	line-height: 1;
+	background-color:#F3FCEB;
+}
+
+.div6{
+	text-align: center;
+	position: static;
+	margin: auto;
+	margin-top: 70px;	
+	border: 1px solid #D1D8CA;
+	height: 500px;
+	width: 1000px;
+	border-radius: 2em;
+	padding-left: 15%;
+	padding-top: 40px;
+	line-height: 1;
+	background-color:#F3FCEB;
+
+}
+
+
+.text{
+	font-size: 3em;
+	font-family: 'Lucida Sans Unicode', 'Lucida Grande', sans-serif;
+	line-height: 1;
+	margin-bottom: 40px; 
+}
+
+#textS{
+	font-size: 1em;
+	font-family: 'Lucida Sans Unicode', 'Lucida Grande', sans-serif;
+	line-height: 1;
+	margin-bottom: 10px; 
+}
+
+.text2{
+	font-size: 2em;
+	font-family: 'Lucida Sans Unicode', 'Lucida Grande', sans-serif;
+	line-height: 1;
+	margin-bottom: 20px; 
+}
+
+body{
+	background-color: #C4C4C4;
+}
+
+.bott{
+	padding-left: 300px;
+	padding-top: 100px;
+}
+
+.divPonente{
+	margin: auto;
+	border: 1px solid #808CA0;
+	background-color:#96A6C0;
+	line-height: 1;
+	border-radius: 1em;
+	width: 900px;
+	padding: 10px;
+}
+.pon{
+	text-align: left;
+	padding-left: 10px;
+}
+
+.divCur{
+	text-align: center;
+	position: static;
+	margin: auto;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	border: 1px solid #D1D8CA;
+	height: auto;
+	width: 1000px;
+	border-radius: 2em;
+	padding: 50px;
+	line-height: 1;
+	background-color:#F3FCEB;
+}
+
+.divCur2{
+	text-align: center;
+	position: static;
+	margin: auto;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	border: 1px solid #D1D8CA;
+	height: auto;
+	width: 1300px;
+	border-radius: 2em;
+	padding: 50px;
+	line-height: 1;
+	background-color:#F3FCEB;
+}
+
+.divCur3{
+	text-align: center;
+	position: static;
+	margin: auto;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	border: 1px solid #D1D8CA;
+	height: auto;
+	width: 900px;
+	border-radius: 2em;
+	padding: 50px;
+	line-height: 1;
+	background-color:#F3FCEB;
+}
+
+
+.coordinador{
+	font-size: 2em;
+	line-height: 2;
+	text-align: left;
+}
+
+#botonheight{
+	text-align: center;
+}
+
+.botonmar{
+	margin: 2px;
+}
+
+.p1{
+	text-align: left;
+	padding-left: 10px;
+}
