@@ -9,7 +9,7 @@
 	<div class="form-row div2">
 		<div class="form-group">
 			<p class="form-group text">Administración</p>
-			<button type="submit" onclick="location.href='consultarCursos.php'" class="btn btn-success form-group col-md-10">Cursos</button>
+			<button type="submit" onclick="location.href='index.php'" class="btn btn-success form-group col-md-10">Cursos</button>
 			<br>
 			<button type="submit" onclick="location.href='trabajador.php'" class="btn btn-success form-group col-md-10">Datos del trabajador</button>
 			<br>
@@ -19,6 +19,5 @@
 		</div>
 		
 	</div>
-
 </body>
 </html>
