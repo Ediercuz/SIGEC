@@ -6,15 +6,14 @@
 	<link rel="stylesheet" type="text/css" href="estilos/style.css">
 </head>
 <body>
-	<div class="form-row div1">
-		<div class="form-group">
-			<p class="form-group text col-mb-1 text">SIGEC</p>
+	<div class="div1">
+		<div>
+			<p class="text">SIGEC</p>
 			<p> Sistema de gestión de constancias</p>
-			<div class="col-md-10 mb-1">
-				<input type="text" class="form-control" placeholder="RFC" aria-label="RFC" aria-describedby="inputGroup-sizing-default">
+			<div class="dv-1">
+				<input type="text" class="form-control" placeholder="RFC">
 			</div>
-			<br>
-			<button type="submit" onclick="location.href='Usuario.php'" class="btn btn-success form-group col-md-9">Accesar</button>
+			<button type="submit" onclick="location.href='indexUser.php'" class="btn btn-success form-group p-2">Accesar</button>
 			<!--<button type="submit" onclick="location.href='Administracion.php'" class="btn btn-success col-md-9">Entrar como Administrador</button>-->
 			<br><br>
 			<p>Instrucciones:</p>
@@ -23,8 +22,6 @@
 		</div>
 		
 	</div>
-	
-
 
 </body>
 </html>
