@@ -13,26 +13,23 @@ body {
 .container{
     width:100%;
     height:100%;
-    background-color: #F7F7F7;
 }
 
 .nv{
-	background-color: #F7F7F7;
+	background-color: #F8F8F8;
 	width:80%;
     height:13%;
     position: absolute;
     right: 0;
-    text-align: right;
-    box-shadow: 15px 0px 20px 0 #DFDFDF;
-    z-index: 2;
+    box-shadow: 0px 0px 10px 0px rgb(205, 205, 207);
+    z-index: 3;
+    padding-top: 15px;
+    padding-left: 10px;
 
 }
 
 .nv-li{
-	display: inline-block;
-	right: 100px;
 	color: #000;
-	padding: 20px;
 }
 
 .nv-li i{
@@ -47,12 +44,19 @@ body {
 
 .nv-li:hover > a {
 	color: #444444;
+	text-decoration: none;
+}
+
+#lf{
+	right: 10;
 }
 
 .content{
-    width:78%;
-    height: auto;
+    width:80%;
+    height: 87%;
     margin-left:12%;
+    right: 0;
+    bottom: 0;
     position: absolute;
     z-index: 1;
 }
@@ -64,8 +68,26 @@ body {
 	width: 20%;
 	height: 100%;
 	background: rgb(127, 129, 144);
-	position: fixed; /*A qui hice cambios */
+	position: fixed;
+	z-index: 3;
 
+}
+
+.sidebarR {
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 10%;
+	height: 100%;
+	background: rgb(127, 129, 144);
+	position: fixed;
+	z-index: 3;
+	display: none;
+
+}
+
+.sidebar hr{
+	color: rgb(134, 134, 146);
 }
 
 .mn{
@@ -77,6 +99,7 @@ body {
 	color: #fff;
 	text-decoration: none;
 }
+
 
 .mn i{
 	width: 30px;
@@ -91,27 +114,70 @@ body {
 
 .mn:hover > a {
 	color: #CCCCCC;
+	text-decoration: none;
 }
 
 .mn:hover {
 	color: #CCCCCC;
 }
 
+.mn label {
+	cursor: pointer;
+}
+
+.mt{
+	padding: 5px;
+	padding-left: 50px;
+	color: #fff;
+}
+
+.mt a{
+	color: #fff;
+	text-decoration: none;
+}
+
+.mt i{
+	width: 32px;
+	text-align: left;
+	margin-right: 15px;
+}
+
+.mt:hover > a {
+	color: #CCCCCC;
+	text-decoration: none;
+}
+
+.mt:hover {
+	color: #CCCCCC;
+}
+
+.ms:hover > a {
+	color: #FF6969;
+	text-decoration: none;
+}
+
+.ms:hover {
+	color: #FF6969;
+}
+
 .text{
 	font-size: 2em;
 	font-family: 'Lucida Sans Unicode', 'Lucida Grande', sans-serif;
 	line-height: 1;
-	padding-right: 250px;
 }
 
 .divCur2{
 	text-align: left;
-	position: absolute;
 	height: auto;
-	width: 100%;
-	padding: 10px;
-	margin: 0;
+	width: 95%;
+	padding: 20px;
+	margin: 20px;
+	margin-bottom: 20px;
 	line-height: 1;
+	border: 1px solid #F8F8F8;
+	border-radius: 1em;
+	background-color: #F8F8F8;
+	box-shadow: 0px 0px 10px 0px rgb(205, 205, 207);
 }
 
 .botonmar{
@@ -226,3 +292,64 @@ body {
 	padding-left: 10px;
 }
 
+.des ul {
+  display: none;
+  list-style-type:none;
+}
+
+.des input:checked + ul {
+  display: block;
+}
+
+.des input {
+  display: none;
+}
+
+#lbl{
+	padding: 10px;
+	text-align: center;
+}
+
+#titres{
+		display: none;
+	}
+
+
+@media only screen and (max-width: 1050px){
+	.sidebar{
+		display: none;
+	}
+
+	.sidebarR{
+		display: block;
+	}
+
+	.sidebarR img{
+		display: none;
+	}
+	#title{
+		display: none;
+	}
+	#titres{
+		display: inline;
+	}
+	.nv{
+		padding-top: 10px;
+		width: 90%;
+	}
+	.content{
+		width: 90%;
+	}
+}
+
+@media only screen and (max-height: 500px){
+	.nv{
+		padding-top: 10px;
+	}
+}
+
+@media only screen and (max-height: 400px){
+	.nv{
+		padding-top: 0px;
+	}
+}
